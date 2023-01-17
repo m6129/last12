@@ -10,3 +10,7 @@ https://habr.com/ru/company/otus/blog/683366/
 https://fastapi.tiangolo.com/tutorial/sql-databases/  
 
 
+**Ссылки с цифрового прорыва**  
+
+https://hacks-ai.ru/championships/758453  
+https://hacks-ai.ru/hackathons/757119
