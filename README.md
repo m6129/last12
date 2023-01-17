@@ -14,3 +14,4 @@ https://fastapi.tiangolo.com/tutorial/sql-databases/
 
 https://hacks-ai.ru/championships/758453  
 https://hacks-ai.ru/hackathons/757119
+https://hacks-ai.ru/hackathons/757123
