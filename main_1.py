@@ -32,14 +32,16 @@ def root():
     <h4 style="text-align: center; color: #FF4500;">Исполнители: Зайцев Антон Александрович, Чурилов Алексей Александрович, Зайцев Александр Васильевич</h4>"""
     return HTMLResponse(content=data) #возвращаем наше замечатльное приветствие
 
-#блок работы с моделями
-@app.get("/file", response_class = FileResponse)
-def root_html(item: Item): #прописываем. что подаём на вход
-    html_e = displacy.render(Item, style='ent') #
+def spa(Item):
+    html_e = displacy.render(Item, style='ent') #а этот же код уже выполняется, до того как мы вводим текст 
     with open('data_ent.html',"w") as f:
         f.write(data_ent.html)
-    data_ent.html
-    return "/public/data_ent.html"
+    return "public/data_ent.html"
+
+#блок работы с моделями было (app.get)
+@app.post("/file", response_class = FileResponse)
+def root_html(item: Item): #прописываем. что подаём на вход
+    return spa(item)#"/public/data_ent.html"
     #return "<h2>Hello METANIT.COM</h2>"
 
 @app.post("/predict/")
