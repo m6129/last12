@@ -1,4 +1,5 @@
 **Черновой итоговый проект, который не пошёл в реализацию, сделали аналогичный на [streamlit](https://github.com/m6129/stream)**
+**"Реализован" на FastApi **
 # о системе проекта  
 https://python-poetry.org/   
 https://ru.hexlet.io/courses/python-setup-environment/lessons/start-with-poetry/theory_unit  
